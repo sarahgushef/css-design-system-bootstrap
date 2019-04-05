@@ -1,0 +1,20 @@
+/* nav {
+  display: flex;
+  position: fixed;
+  border: 1px solid orange;
+  background-color: white;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav div ul li {
+  display: inline;
+  padding: 10px 20px 10px 10px;
+} */

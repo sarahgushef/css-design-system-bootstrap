@@ -13,41 +13,51 @@
       crossorigin="anonymous"
     />
 
+    <!-- CSS -->
+    <Link rel="stylesheet" href="index.css" />
+
     <title>Bootstrap Exercise</title>
   </head>
 
   <body>
     <!-- Start of Navigation -->
-    <nav id="navigation" class="navigation">
-      <div>
-        <a href="#page-top"></a>
+    <nav
+      id="navigation"
+      class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <!-- Start of logo -->
+        <a href="#page-top" class="navbar-brand">START BOOTSTRAP</a>
+        <!-- End of logo -->
 
+        <!-- Start of Navigation item -->
         <div>
-          <ul>
+          <ul class="navbar-nav mr-auto">
             <li>
-              <a href="#services">SERVICES</a>
+              <a href="#services" class="nav-link">SERVICES</a>
             </li>
             <li>
-              <a href="#portfolio">PORTFOLIO</a>
+              <a href="#portfolio" class="nav-link">PORTFOLIO</a>
             </li>
             <li>
-              <a href="#about">ABOUT</a>
+              <a href="#about" class="nav-link">ABOUT</a>
             </li>
             <li>
-              <a href="#team">TEAM</a>
+              <a href="#team" class="nav-link">TEAM</a>
             </li>
             <li>
-              <a href="#contact">CONTACT</a>
+              <a href="#contact" class="nav-link">CONTACT</a>
             </li>
           </ul>
         </div>
+        <!-- End of Navigation item -->
       </div>
     </nav>
 
     <!-- End of Navigation -->
 
     <!-- Start of Header -->
-    <header id="header" class="navigation">
+    <header id="header" class="container-fluid header">
       <div>
         <span> Welcome to Our Studio!</span>
         <span> IT'S NICE TO MEET YOU</span>
